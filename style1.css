@@ -1,0 +1,71 @@
+
+
+
+
+
+
+/*animation*/
+.anima_nav
+{
+    background-color: #6ccaab;
+    border-bottom: 1px solid white;
+}
+
+.login_cont
+{   
+    min-height: calc(100vh - 60px);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    background-image: linear-gradient(to bottom ,#7fdbbc,#3a7763);
+}
+.form_login
+{   
+   
+    border: 1px solid white;
+    padding:100px;
+    z-index:2;
+ 
+}
+input,button
+{
+    margin:10px;
+    font-size: 2vh;
+}
+.form_login input
+{
+    border:none;
+    height: 50px;
+    width: 250px;
+    text-align:center;
+    background-color: #a1e2cd;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.form_login input:focus
+{
+    outline:none;
+    background-color: white;
+    transform: scale(1.2);
+   
+}
+.form_login input::placeholder
+{
+    color:white;
+}
+.form_login button
+{
+    border:none;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    cursor:pointer;
+    transition-duration:0.3s;
+}
+.form_login button:hover{
+    transform: scale(1.2);
+}
+  
+
+
